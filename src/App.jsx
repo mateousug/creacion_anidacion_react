@@ -2,6 +2,7 @@ import Perfil from "./components/Perfil";
 import CabeceraCV from "./components/CabeceraCV";
 import Educacion from "./components/Educacion";
 import Experiencia from "./components/Experiencia";
+import StackTecnologias from "./components/StackTecnologias.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Perfil />
         <Educacion />
         <Experiencia />
+        <StackTecnologias />
       </div>
     </>
   );
