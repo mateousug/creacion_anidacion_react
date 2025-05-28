@@ -4,7 +4,7 @@ export default function Educacion() {
       <h3>Educación</h3>
       <ul>
         <li>
-          <strong>Ingeniería en Sistemas</strong> - Universidad Nacional (2018-2022)
+          <strong>Media tecnica en programacion de software</strong> - Javiera londoño sevilla (2022-2024)
         </li>
       </ul>
     </section>
