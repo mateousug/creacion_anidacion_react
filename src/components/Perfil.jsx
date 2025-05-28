@@ -3,7 +3,14 @@ export default function Perfil() {
     <section>
       <h3>Perfil</h3>
       <p>
-        Tecnologo en Analisis y Desarrollo de software con experiencia en desarrollo web y móvil, apasionado por la tecnología.
+        Desarrollador de software con experiencia en la creacion de interfaces graficas
+        y aplicaciones web. Me apasiona aprender nuevas tecnologias y mejorar mis habilidades.
+      </p>
+      <h3>
+        Habilidades blandas
+      </h3>
+      <p>
+        Trabajo en equipo, comunicacion efectiva, adaptabilidad y resolucion de problemas.
       </p>
     </section>
   );
