@@ -10,6 +10,7 @@ export default function CabeceraCV() {
             <strong>Correo:</strong>
             <a href="mateo.usuga.v21@gmail.com"></a>
         </p>
+        <img src="Imagen de WhatsApp 2025-05-25 a las 20.24.23_10f3515f.jpg" alt="" />
     </header>
   );
 }
