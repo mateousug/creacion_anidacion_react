@@ -1,19 +1,29 @@
-export default function Educacion() {
-  const educacion = [
-    { id: 1, titulo: "Media tecnica en programacion de software", institucion: "Javiera londoño sevilla", periodo: "2022-2024" }
-  ];
+import React from "react";
+
+export default function Educacion({ estudios }) {
+  if (!estudios || estudios.length === 0) {
+    return (
+      <section>
+        <h3>Educación</h3>
+        <p>No se ha registrado formación académica.</p>
+        <hr />
+      </section>
+    );
+  }
 
   return (
     <section>
       <h3>Educación</h3>
       <ul>
-        {educacion.map((edu) => (
-          <li key={edu.id}>
-            <strong>{edu.titulo}</strong> - {edu.universidad} ({edu.periodo})
+        {estudios.map(({ id, titulo, universidad, periodo }) => (
+          <li key={id}>
+            <strong>{titulo}</strong> - {universidad} ({periodo})
           </li>
         ))}
       </ul>
+      <hr />
     </section>
   );
 }
+
   
