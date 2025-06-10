@@ -1,6 +1,6 @@
 export default function Educacion() {
   const educacion = [
-    { id: 1, titulo: "Media tecnica en programacion de software", universidad: "Javiera londoño sevilla", periodo: "2022-2024" }
+    { id: 1, titulo: "Media tecnica en programacion de software", institucion: "Javiera londoño sevilla", periodo: "2022-2024" }
   ];
 
   return (
