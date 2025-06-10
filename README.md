@@ -19,3 +19,6 @@ imagen de la pagina:
 
 instrucciones: 
 Para iniciar el proyecto ejecutar en la terminal "npm start dev" y seleccionar el link que se deja despues de la ejecucion del comando.
+
+Explicacion del uso de props:
+Los props o propiedades funcionan como bloques de codigo facilmente reutilizables para cualquier parte de la pagina, estos siendo transmitidos de componentes padres a componentes hijo, y como funcionan como bloques de codigo en donde se pueden introducir cualquier dato que queramos pasar por las paginas, son altamente versatiles y faciles de transmitir entre componentes en donde se necesite.
